@@ -1,0 +1,28 @@
+./bin/obfsproxy --log-min-severity=info obfs2 --shared-secret=a socks 127.0.0.1:10194
+
+
+--- INSTALLATION ---
+
+https://apple.stackexchange.com/questions/438427/restore-python-2-7-on-monterey-12-3
+
+https://www.alfredapp.com/help/kb/python-2-monterey/
+
+$ pyenv install 2.7.18
+
+
+https://stackoverflow.com/questions/50225115/pyenv-python2-version-not-working
+
+$ pyenv local 2.7.18
+
+
+pip install twisted
+pip install pyptlib
+pip install Crypto
+
+
+https://stackoverflow.com/questions/19623267/importerror-no-module-named-crypto-cipher
+
+pip uninstall pycrypto
+easy_install pycrypto
+
+
