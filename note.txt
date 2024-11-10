@@ -15,6 +15,13 @@ https://stackoverflow.com/questions/50225115/pyenv-python2-version-not-working
 $ pyenv local 2.7.18
 
 
+# Installare PyYAML da
+https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz
+python2 setup.py install
+
+pip install incremental
+pip install typing
+
 pip install twisted
 pip install pyptlib
 pip install Crypto
